@@ -1,9 +1,9 @@
 
-<h3 align="center">VGG16 Convolutional Neural Net Object Detection</h3>
+<h3 align="center">VGGNET Convolutional Neural Net (CNN) Object Detection</h3>
 
   <p align="center">
     <br/>
-    <a href="https://github.com/charlelotfalla/VGG16-CNN-Object-Detection"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/charlelotfalla/VGGNET-Convolutional-Neural-Network-(CNN)-Object-Detection"><strong>Explore the docs »</strong></a>
   </p>
 </p>
 
@@ -39,13 +39,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The purpose of the project is to analyze the research findings trends in an extensive list of medical publications (Abstracts, Full-Text). The data is extracted from PubMed.com in form of a csv. Then the data is cleaned, lemmatized, stemmed and then used to create a dictionary of either single phrases or multi-phrases. Then the topic model is designed using Latent Dirichlet Allocation. LDA allows each document (abstract) to be described by a distribution of topics and each topic is described by a distribution of words. 
+The purpose of the project is build an object detection classifier using CNN architecture. The CIFAR-10 Dataset contains 10 different object classes. 2 classes (deer & dogs) were picked for analysis. Initially, exploratory data analysis on the pixel data for the two classes showed differences in mean and standard deviations of colors for the two classes. Pixels for deer images had less standard deviation than these of dogs. This is explained by the various dog breeds compared to those of deer. 
 
-The number of topics, hyperparameter k, in the model is optimized using a gridsearch function with the scoring metric called 'Coherence Score'. Coherence score measures the degree of semantic similarity between high scoring words in each of the topics.
+A base CNN model of 1 convolutional and 1 maxpooling layer was built to test on the dataset. The model achieved object detection accuracy of around 85%.
 
-The k with the highest coherence score is used to build the final model. The LDA model is used on the dataset to create the Document-topic & topic-word probability distributions. 
-
-Then LDAVis library is used to create a dashboard for topic visualizations.
+To optomize the model, a VGG-16 
 
 
 ### Data
