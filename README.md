@@ -63,7 +63,7 @@ Any python IDE or Code Editor (Spyder, Jupyter Notebook, Sublime text 3, ... etc
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/charlelotfalla/COVID-19-Publications-Topic-Model.git
+   git clone https://github.com/charlelotfalla/VGGNET-Convolutional-Neural-Network-CNN-Object-Detection.git
    ```
 2. Install Python packages
    ```sh
@@ -74,7 +74,9 @@ Any python IDE or Code Editor (Spyder, Jupyter Notebook, Sublime text 3, ... etc
 <!-- CONTACT -->
 ## Contact
 
-Charle Lotfalla - [@charle_lotfalla](https://twitter.com/charle_lotfalla) - charlelotfalla@gmail.com
+Twitter: [@charle_lotfalla](https://twitter.com/charle_lotfalla)  
+
+Email: charlelotfalla@gmail.com
 
 
 
