@@ -47,7 +47,8 @@ Source: [The CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar-10-python.
 Copyright: Open-source <br />
 Variables:10000x3072 array of uint8s. Each row of the array stores a 32x32 colour image. The first 1024 entries contain the red channel values, the next 1024 the green, and the final 1024 the blue. The image is stored in row-major order, so that the first 32 entries of the array are the red channel values of the first row of the image. <br />
 
-<br />
+
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
