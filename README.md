@@ -46,8 +46,7 @@ To optimize the model, a VGGNET architecture was used of total 6 convolutional l
 Source: [The CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) <br />
 Copyright: Open-source <br />
 Variables:10000x3072 array of uint8s. Each row of the array stores a 32x32 colour image. The first 1024 entries contain the red channel values, the next 1024 the green, and the final 1024 the blue. The image is stored in row-major order, so that the first 32 entries of the array are the red channel values of the first row of the image. <br />
-
-
+<br />
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -75,8 +74,7 @@ Any python IDE or Code Editor (Spyder, Jupyter Notebook, Sublime text 3, ... etc
 <!-- CONTACT -->
 ## Contact
 
-Twitter: [@charle_lotfalla](https://twitter.com/charle_lotfalla)  
-
+Twitter: [@charle_lotfalla](https://twitter.com/charle_lotfalla)  <br />
 Email: charlelotfalla@gmail.com
 
 
