@@ -25,11 +25,6 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
-    <li>
-      <a href="#Usage">Usage</a>
-      <ul>
-      </ul>
-    </li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -41,9 +36,9 @@
 
 The purpose of the project is build an object detection classifier using CNN architecture. The CIFAR-10 Dataset contains 10 different object classes. 2 classes (deer & dogs) were picked for analysis. Initially, exploratory data analysis on the pixel data for the two classes showed differences in mean and standard deviations of colors for the two classes. Pixels for deer images had less standard deviation than these of dogs. This is explained by the various dog breeds compared to those of deer. 
 
-A base CNN model of 1 convolutional and 1 maxpooling layer was built to test on the dataset. The model achieved object detection accuracy of around 85%.
+A base CNN model of 1 convolutional and 1 max pooling layer was built to test on the dataset. The model achieved object detection accuracy of around 85%.
 
-To optomize the model, a VGG-16 
+To optimize the model, a VGGNET architecture was used of total 6 convolutional layers & 3 max pooling layers. L1 & L2 regularizations and 3 dropout layers were used to prevent overfitting. The final model achieved 92% val accuracy and 90.5% test accuracy. 
 
 
 ### Data
@@ -72,17 +67,9 @@ Any python IDE or Code Editor (Spyder, Jupyter Notebook, Sublime text 3, ... etc
    ```
 2. Install Python packages
    ```sh
-   pip install nbimporter lemmatizer ldamodel gensim pyLDAvis re nltk spacy pickle os scispacy random string
+   pip install sklearn keras seaborn random 
    ```
-   
-<br />
 
-<!-- USAGE -->
-## Usage
-
-This project can be used for any type of topic modeling in big sets of documents (publications, articles, news, etc...). It's useful the most in the medical field as the stemmer and lemmatizer used are more specific to medical data. A solution to this is replacing the medical-specific stemmar, SciSpacy, with a more general version, from NLTK. 
-
-<br />
 
 <!-- CONTACT -->
 ## Contact
