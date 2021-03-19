@@ -34,7 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The purpose of the project is build an object detection classifier using CNN architecture. The CIFAR-10 Dataset contains 10 different object classes. 2 classes (deer & dogs) were picked for analysis. Initially, exploratory data analysis on the pixel data for the two classes showed differences in mean and standard deviations of colors for the two classes. Pixels for deer images had less standard deviation than these of dogs. This is explained by the various dog breeds compared to those of deer. 
+The purpose of the project is to build an object detection classifier using CNN architecture. The CIFAR-10 Dataset contains 10 different object classes. 2 classes (deer & dogs) were picked for analysis. Initially, exploratory data analysis on the pixel data for the two classes showed differences in mean and standard deviations of colors for the two classes. Pixels for deer images had less standard deviation than these of dogs. This is explained by the various dog breeds compared to those of deer. 
 
 A base CNN model of 1 convolutional and 1 max pooling layer was built to test on the dataset. The model achieved object detection accuracy of around 85%.
 
