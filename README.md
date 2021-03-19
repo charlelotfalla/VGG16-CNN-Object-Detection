@@ -1,5 +1,5 @@
 
-<h3 align="center">VGGNET Convolutional Neural Net (CNN) Object Detection</h3>
+<h1 align="center">VGGNET Convolutional Neural Net (CNN) Object Detection</h1>
 
   <p align="center">
     <br />
