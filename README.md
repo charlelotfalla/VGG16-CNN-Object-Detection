@@ -1,6 +1,6 @@
 
 <h2 align="center">VGGNET Convolutional Neural Net (CNN) Object Detection</h2>
-<h5 align="center">December 2019  <br/> <br/>  <br/> </h5>
+<h5 align="center">December 2019  <br/>  <br/> </h5>
 
   <p align="center">
     <br />
